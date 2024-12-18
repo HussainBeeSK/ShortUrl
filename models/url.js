@@ -13,7 +13,8 @@ const urlSchema = new mongoose.Schema({
         default: null },
     visitHistory: { 
         type: Array, 
-        default: [] },
+        default: [] 
+    },
     createdAt: { 
         type: Date, 
         default: Date.now },

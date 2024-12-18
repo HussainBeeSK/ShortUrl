@@ -61,7 +61,6 @@ const generateShortUrl = async (req, res) => {
 }
 
 
-
 const redirecturl = async (req, res) => {
     try {
         const { alias } = req.params;  // Get the alias from the URL.

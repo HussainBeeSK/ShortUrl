@@ -21,6 +21,7 @@ exports.loginSuccess = (req, res) => {
     }
 };
 
+
 exports.loginFailure = (req, res) => {
     res.status(401).json({ message: 'Login failed' });
 };

@@ -22,7 +22,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-
 // Routes
 app.use("/api" ,urlRoute);
 app.use('/auth', userRoute);

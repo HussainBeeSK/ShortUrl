@@ -13,6 +13,7 @@ client.on('error', (err) => {
   console.error('Redis error:', err);
 });
 
-client.connect();  
+client.connect(); 
+ 
 
 module.exports = client;

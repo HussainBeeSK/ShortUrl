@@ -5,7 +5,6 @@ const apiLimiter = require("../middleware/apiLimiter")
 
 const router = express.Router();
 
-
 router.post("/shorten" ,authenticateToken,apiLimiter, generateShortUrl)
 router.get("/shorten/:alias",authenticateToken ,redirecturl)
 router.get("/analytics/topic/:topic",authenticateToken , getTopicAnalytics)

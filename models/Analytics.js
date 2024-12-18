@@ -7,8 +7,11 @@ const analyticsSchema = new mongoose.Schema({
     timestamp: { 
         type: Date, 
         default: Date.now }, 
+
     userAgent: String, 
-    ipAddress: String, 
+
+    ipAddress: String,
+     
     location: {
         country: String,
         region: String,
